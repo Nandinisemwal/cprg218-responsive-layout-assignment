@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+.header-container {
+    background-color: #120323;
+    text-align: center;
+    display: flex;
+    
+}
