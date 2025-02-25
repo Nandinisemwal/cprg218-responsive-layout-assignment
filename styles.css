@@ -23,15 +23,30 @@ header{
 h1 {
     padding-top: 1em;
 }
+ 
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+}
 
 figure {
-    margin-block: 30px;
+    margin-block: 60px;
 }
 
 figure img {
     max-width: 400px;
     border: solid #d9043d;
     border-width: 5px;
+}
+
+h2 {
+    color: #120323;
+}
+
+figcaption{
+
 }
 
 aside {
