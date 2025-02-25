@@ -5,6 +5,8 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    flex-direction: column;
+
 }
 .header-container {
     background-color: #120323;
@@ -18,4 +20,10 @@ body {
 
 h1 {
     padding-top: 1em;
+}
+
+figure img {
+    margin: 2em;
+    max-width: 350px;
+    border: solid #d9043d;
 }
