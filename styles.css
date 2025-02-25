@@ -13,8 +13,8 @@ body {
     gap: 1rem;
     min-height: 100vh;
 }
-
-header{
+/* title/header*/
+.header-container{
     background-color: #120323;
     text-align: center;
     color: #97bf04;
@@ -23,4 +23,15 @@ header{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+}
+
+header image {
+    max-width: 150px;
+}
+/*main*/
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
 }
