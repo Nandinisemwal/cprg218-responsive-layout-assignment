@@ -10,8 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
     gap: 1rem;
-    min-height: 100vh;
 }
 /* title/header*/
 .header-container{
@@ -22,12 +22,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
-header image {
+header img {
     max-width: 150px;
 }
+
 /*main*/
 #container {
     display: flex;
@@ -35,3 +37,24 @@ header image {
     gap: 1em;
     padding: 2em;
 }
+/*image/figure*/
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+figure img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border: 4px solid #d9043d;
+}
+
+figcaption {
+    text-align: left;
+    padding: 2em;
+}
+
