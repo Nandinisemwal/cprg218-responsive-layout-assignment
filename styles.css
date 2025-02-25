@@ -101,5 +101,28 @@ footer {
     h2 {
         margin-top: -20px;
     }
+}
+/* for devices 1000px wide or greater*/
+@media screen and (min-width: 1000px) {
+    .header-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
+    #container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    main {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1;
+        max-width: 300px;
+        float: right;
+        width: 100%;
+    }
 }
