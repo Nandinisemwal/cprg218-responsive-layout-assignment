@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     flex-direction: column;
-
+    height: 100vh;
 }
 .header-container {
     background-color: #120323;
@@ -23,7 +23,9 @@ h1 {
 }
 
 figure img {
-    margin: 2em;
-    max-width: 350px;
+    float: left;
+    margin: 4em;
+    max-width: 400px;
     border: solid #d9043d;
+    border-width: 5px;
 }
